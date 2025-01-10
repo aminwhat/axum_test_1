@@ -1,10 +1,7 @@
 #![allow(unused)]
 
-use std::net::SocketAddr;
-
 use axum::{response::Html, routing::get, Router};
-
-mod tests;
+use std::net::SocketAddr;
 
 #[tokio::main]
 async fn main() {
